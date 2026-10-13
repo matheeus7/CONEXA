@@ -8,7 +8,7 @@ ferramentas, linguagens e bibliotecas utilizadas no desenvolvimento do sistema.
 O CONEXA foi definido na Etapa 1 como uma aplicação **web**, implantada como um único serviço
 monolítico — não como um conjunto de microsserviços nem como aplicativo mobile nativo (ambos
 explicitamente fora do escopo do MVP). A escolha de tecnologias desta etapa segue diretamente o
-padrão arquitetural já definido em `1-padrao_arquitetura.md`: Camadas com Portas e Adaptadores
+padrão arquitetural já definido: Camadas com Portas e Adaptadores
 (Hexagonal) para a Aplicação, MVC para a Apresentação, e Observer/Pub-Sub interno para desacoplar
 Notificações e Radar das mudanças em Tarefas e Eventos. Por isso, a prioridade aqui não é
 "tecnologia mais moderna", e sim tecnologias que implementem essas três decisões sem exigir
